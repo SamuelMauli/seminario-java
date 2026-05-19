@@ -66,17 +66,6 @@ java -cp out Ex12_Deadlock
 
 Cada arquivo é independente: tem o próprio `main` e um comentário-resumo no topo explicando o conceito.
 
-## 🎞️ Slides
-
-A apresentação está em [`slides/Seminario_Concorrencia_Java.pptx`](slides/Seminario_Concorrencia_Java.pptx) (22 slides com gráficos).
-
-Para regenerar a partir do código:
-
-```bash
-pip install python-pptx matplotlib
-python3 gerar_slides.py
-```
-
 ## 🧠 Resumo dos conceitos
 
 - **Thread / Runnable** — unidade de execução vs tarefa a executar
